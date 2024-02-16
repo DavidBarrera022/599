@@ -1,0 +1,12 @@
+name: Deploy ST
+
+on:
+  push:
+    branches: staging
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Alistamiento
+        run: ls
